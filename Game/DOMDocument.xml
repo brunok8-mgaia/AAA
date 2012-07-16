@@ -4,13 +4,26 @@
           <Include href="Square.xml" itemIcon="0" loadImmediate="false" itemID="5004603e-00000016" lastModified="1342464062"/>
      </symbols>
      <timelines>
-          <DOMTimeline name="Scene 1" currentFrame="17">
+          <DOMTimeline name="Scene 1">
                <layers>
+                    <DOMLayer name="NameLayer" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="9" name="Teste" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="9" duration="10" name="Bla" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="19" duration="10" name="AAA" labelType="name" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
                     <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
                          <frames>
-                              <DOMFrame index="0" duration="21" name="fsfsef" labelType="name" keyMode="9728">
+                              <DOMFrame index="0" duration="9" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Background" selected="true" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Background" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="275" ty="200"/>
                                              </matrix>
@@ -18,7 +31,47 @@
                                                   <Point/>
                                              </transformationPoint>
                                         </DOMSymbolInstance>
-                                        <DOMSymbolInstance libraryItemName="Square" selected="true" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Square" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="275" ty="200"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="9" duration="10" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Background" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="275" ty="200"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Square" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="275" ty="200"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="19" duration="10" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Background" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="275" ty="200"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMSymbolInstance libraryItemName="Square" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="275" ty="200"/>
                                              </matrix>
